@@ -1,0 +1,89 @@
+.navbar{
+  background-color: #333333;
+  height: 50px;
+  position: fixed;
+  width: 100%;
+  top: 0
+}
+
+.menubarContainer{
+  display: flex;
+  width: 1800px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.layoutMain{
+  padding-top: 50px;
+  height: 1600px;
+}
+
+.menubar{
+  color: white;
+}
+.title{
+  color: white;
+  font-family: titleFont;
+  cursor: pointer;
+  float: left;
+  font-size: 18px;
+  height: 50px;
+  padding-left: 15px;
+  padding-right: 15px
+}
+
+.listItem{
+  cursor: pointer;
+  float: left;
+  font-size: 14px;
+  height: 50px;
+  padding-left: 15px;
+  padding-right: 15px
+}
+.listItem:hover{
+  background-color: #080808;
+  color: white;
+  text-decoration: underline
+}
+
+.footer{
+  display: flex;
+  align-items: center;
+  color: white;
+  background-color: #333333;
+  height: 250px;
+  width: 100%;
+  justify-content: center;
+}
+
+.footerWrapper{
+  width: 80%;
+  height: 180px;
+  display: flex;
+  justify-content: space-between;
+}
+.footerColumnWrapper{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.span{
+  font-size:12px;
+  letter-spacing: -0.25px;
+  color: white;
+}
+.spanbar{
+  font-size:12px;
+  letter-spacing: -0.25px;
+  color: white;
+  padding: 4px;
+}
+.spanbar::after{
+  content: "";
+  display: inline-block;
+  background: #dfdfdf;
+  width: 1px;
+  height: 10px;
+  margin: 0px 7px;
+}
