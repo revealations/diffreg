@@ -1,8 +1,8 @@
-import type { NextPage } from 'next'
-import Head from 'next/head'
-import Image from 'next/image'
-import Layout from '../components/Layout/Layout'
-import styles from '../styles/Home.module.css'
+import type { NextPage } from "next";
+import Head from "next/head";
+import Layout from "../components/Layout/Layout";
+import Landing from "../components/Landing";
+import styles from "../styles/Home.module.css";
 
 const Home: NextPage = () => {
   return (
@@ -15,11 +15,11 @@ const Home: NextPage = () => {
 
       <main>
         <Layout>
-          <div>러ㅣㄴ머래ㅑ저래ㅓㄹㅁ재ㅑㄹ저ㅐㄹ</div>
+          <Landing></Landing>
         </Layout>
       </main>
     </div>
-  )
-}
+  );
+};
 
-export default Home
+export default Home;

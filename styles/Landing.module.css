@@ -1,0 +1,37 @@
+.mainH1{
+  text-align: center;
+  font-size: 5rem;
+  margin-top: 10rem;
+}
+
+.mainH2{
+  text-align: center;
+  font-size: 3rem;
+  color: #b7b7b7
+}
+
+.landing{
+  width: 100%;
+}
+.imagecontainer{
+  width: 100%;
+  object-fit: cover;
+  display: flex;
+  justify-content: center;
+}
+
+.upbutton{
+  width: 40px;
+  height: 40px;
+  cursor: pointer;
+  border: none;
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+  border-radius: 15px;
+  background: #7920a6;
+}
+
+.upbutton:hover{
+  background: rgb(139, 68, 174);
+}
