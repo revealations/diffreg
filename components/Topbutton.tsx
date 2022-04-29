@@ -42,21 +42,12 @@ function Topbutton() {
   });
 
   return (
-    <div className="wrap">
-      <button
-        className={BtnStatus ? "topBtn active" : "topBtn"}
-        onClick={handleTop}
-      >
-        TOP
-      </button>
-      <div
-        onClick={handleTop}
-        id="scrollElement"
-        className={styles.imagecontainer}
-      >
-        <img src={"/images/mainimage1.png"} style={image} />
-      </div>
-    </div>
+    <button
+      className={BtnStatus ? styles.upbutton : styles.upbutton_top}
+      onClick={handleTop}
+    >
+      <img src="images/up-arrow.svg"></img>
+    </button>
   );
 }
 

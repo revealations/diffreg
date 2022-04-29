@@ -32,6 +32,11 @@
   background: #7920a6;
 }
 
+.upbutton_top{
+  display: none;
+}
+
 .upbutton:hover{
   background: rgb(139, 68, 174);
 }
+

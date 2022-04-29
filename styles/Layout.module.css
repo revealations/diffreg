@@ -16,7 +16,7 @@
 .layoutMain{
   background: linear-gradient(0deg, transparent 69%, #2f2737 100%);
   padding-top: 50px;
-  height: 1600px;
+  height: 2500px;
   display: flex;
   justify-content: center;
 }
