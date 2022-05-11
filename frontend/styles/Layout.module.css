@@ -1,13 +1,15 @@
 .navbar{
   background-color: #191919;
-  height: 50px;
+  height: 4rem;
   position: fixed;
   width: 100%;
   top: 0
 }
 
 .menubarContainer{
+  height: 4rem;
   display: flex;
+  align-items: center;
   justify-content: space-between;
   width: 90%;
   margin-left: auto;
@@ -15,8 +17,8 @@
 }
 .layoutMain{
   background: linear-gradient(0deg, transparent 69%, #2f2737 100%);
-  padding-top: 50px;
-  height: 2500px;
+  padding-top: 4rem;
+  min-height: 40rem;
   display: flex;
   justify-content: center;
 }
@@ -28,6 +30,7 @@
 
 .menubar{
   color: white;
+  height: 4rem;
 }
 .title{
   color: white;
@@ -35,18 +38,18 @@
   cursor: pointer;
   float: left;
   font-size: 18px;
-  height: 50px;
-  padding-left: 15px;
-  padding-right: 15px
+  height: 4rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
 }
 
 .listItem{
   cursor: pointer;
   float: left;
   font-size: 14px;
-  height: 50px;
-  padding-left: 15px;
-  padding-right: 15px
+  height: 4rem;
+  padding-left: 1rem;
+  padding-right: 1rem
 }
 .listItem:hover{
   background-color: #080808;

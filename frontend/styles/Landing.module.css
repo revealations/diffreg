@@ -21,14 +21,14 @@
 }
 
 .upbutton{
-  width: 40px;
-  height: 40px;
+  width: 45px;
+  height: 45px;
   cursor: pointer;
   border: none;
   position: fixed;
   right: 20px;
-  bottom: 20px;
-  border-radius: 15px;
+  bottom: 85px;
+  border-radius: 26px;
   background: #7920a6;
 }
 

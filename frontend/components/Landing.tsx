@@ -1,13 +1,13 @@
 import React, { useEffect, useState } from "react";
 import Topbutton from "./Topbutton";
 import RenderLanding from "./RenderLanding";
+// import LandingIntroduction from "./LandingIntroduction";
+import Cardbox from "./utils/Cardbox";
 import styles from "../styles/Landing.module.css";
-import RenderMap from "./Contact/NaverMap";
 
 const landing = () => {
-  const image = {
-    width: "1000px;",
-    height: "600px",
+  const margin = {
+    height: "800px",
   };
 
   return (
@@ -16,9 +16,12 @@ const landing = () => {
       <h2 className={styles.mainH2}>
         디프랙은 어쩌구 저쩌구한 뭔가를 제공해줍니다.
       </h2>
+      <div style={margin}></div>
+      {/* <LandingIntroduction>
+        <Cardbox width="200" height="200" img="dddfanfsin"></Cardbox>
+      </LandingIntroduction> */}
       <RenderLanding></RenderLanding>
       <Topbutton></Topbutton>
-      <RenderMap />
     </div>
   );
 };
